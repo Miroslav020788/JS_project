@@ -4,7 +4,7 @@
 // ----------------------------------//
 // ----------------------------------//
 
-// const message = "JavaScript is awesome!";
+const message = "JavaScript is awesome!";
 
 // Виведення
 
@@ -39,6 +39,7 @@
 
 // const value = prompt("Please enter a number!");
 // console.log(typeof value); // 'string'
+
 // console.log(value); // '5'
 
 // let value;
@@ -154,7 +155,7 @@
 
 //   -----and (&&)------  //
 
-console.log(5 === 6 and 6 > 3);
+// console.log(5 === 6  6 > 3);
 // console.log(6 + 3 >= 9 && 8 + 1 === 9);
 
 //   -----or (||)------ //
@@ -177,7 +178,12 @@ console.log(5 === 6 and 6 > 3);
 // } else {
 //   console.log("2");
 // }
-
+// if (5 + 5 === 11) {
+//     console.log("1");
+// }
+// else {
+//     console.log(false);
+// }
 // if (2 + 2 === 6) {
 //   console.log("Hello");
 // } else {
@@ -189,9 +195,9 @@ console.log(5 === 6 and 6 > 3);
 // 2 + 2 === 4 ? console.log("1") : console.log("2");
 // 5 * 5 === 24 ? console.log(true) : console.log(false);
 
-// if (5 + 5 === 10) {
+// if (5 + 5 === 11) {
 //   console.log("5+5 ===10");
-// } else if (2 + 2 === 4) {
+// } else if (2 + 2 === 5) {
 //   console.log("2+2 ===4");
 // } else {
 //   console.log("no");
@@ -213,6 +219,8 @@ console.log(5 === 6 and 6 > 3);
 // ----------------------------------//
 // ----------------------------------//
 
+
+// 29:00 - Video 
 // let cost = null;
 // const sub = "premium";
 
@@ -237,19 +245,21 @@ console.log(5 === 6 and 6 > 3);
 // ----------------------------------//
 // ----------------------------------//
 
-// const min = prompt("Введіть хвилину");
+const min = prompt("Введіть хвилину");
 
-// if (min >= 0 && min <= 14) {
-//   console.log("Перша чверть");
-// } else if (min >= 15 && min <= 29) {
-//   console.log("Друга чверть");
-// } else if (min >= 30 && min <= 44) {
-//   console.log("Третя чверть");
-// } else if (min >= 45 && min <= 59) {
-//   console.log("Четверта чверть");
-// } else {
-//   console.log("ВВедіть іншу цифру");
-// }
+if (min >= 0 && min <= 14) {
+  console.log("Перша чверть");
+} else if (min >= 15 && min <= 29) {
+  console.log("Друга чверть");
+} else if (min >= 30 && min <= 44) {
+  console.log("Третя чверть");
+} else if (min >= 45 && min <= 59) {
+  console.log("Четверта чверть");
+} else {
+  prompt("ВВедіть іншу цифру");
+}
+
+
 
 // const value = prompt("Введіть назву товару").toLowerCase();
 // let cost;
